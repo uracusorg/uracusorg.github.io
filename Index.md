@@ -1,6 +1,6 @@
 ---
 layout: default_home
-title: Exsete Home Page
+title: Uracus Home Page
 ---
 <div class="row top-pad back-col home-div-pos backgrnd-img main-page" id="home-page">
     <header>

@@ -1,0 +1,5 @@
+name: "Uracus"
+description: "Uracus a Natural Language Processing Software for Conversation"
+baseurl: "/"
+markdown: rdiscount
+permalink: pretty

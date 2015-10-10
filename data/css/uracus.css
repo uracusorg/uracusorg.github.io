@@ -1,0 +1,305 @@
+.pad-t-0-lr-0 {
+    padding-top: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/*some defaults*/
+
+body{
+    font-family: "Century Gothic";
+    color: white;
+    background-color: #003;
+}
+
+a{
+    font-family: 'Century Gothic';
+}
+a:hover{
+    transition: all 0.5s ease;
+}
+
+.pos-centre{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*navbar related properties*/
+#top_nav_div {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+}
+#navbar-logo {
+    margin-top: -3%;
+    width: 30%;
+    margin-right: 4%;
+    display: inline;
+}
+.navbar-default {
+    background-color: rgba(255,255,255,0.7);
+    height: 70px;
+}
+
+.Navbar-title-font {
+    color: #333366!important;
+    font-size: 30px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 35.2000007629395px;
+    padding-bottom: 0px;
+    padding-top: 14px;
+    width: 110%;
+}
+
+.navbar-top-li {
+    margin-right: 4%;
+}
+.navbar-top-li:hover{
+    border-top: 3px solid crimson;
+}
+
+#top_nav_ul {
+    width: 100%;
+}
+
+.navbar-li-a {
+    font-family: 'Century Gothic';
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000!important;
+}
+.navbar-li-a:hover {
+    color: crimson!important;
+}
+
+#myNavbar {
+    width: 35%;
+    min-width: 452px;
+    margin-top: 1%;
+}
+
+/*home page settings*/
+
+top-pad {
+    padding-top: 6;
+}
+
+.back-col {
+    background-color: #000033;
+}
+
+.home-div-pos {
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    padding-top: 60px;
+    position: relative;
+    height: auto;
+}
+
+.backgrnd-img {
+    background-image: url(/data/img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.main-page {
+    position: relative;
+}
+
+/*form related properties*/
+
+.form-group {
+        position: relative;
+        margin-bottom: 28px;
+    }
+
+.form-control {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Century Gothic';
+    color: inherit;
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 304px;
+    height: 50px;
+    border:none;
+    border-bottom: 1px solid #757575;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.highlight {
+    position:absolute;
+    height:60%;
+    width:100px;
+    top:25%;
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+}
+
+.form-control:focus ~ .highlight{
+    -webkit-animation:inputHighlighter 0.4s ease;
+    -moz-animation:inputHighlighter 0.4s ease;
+    animation:inputHighlighter 0.4s ease;
+}
+
+.hBar {
+    position:relative;
+    display:block;
+    width:100%;
+}
+
+.hBar:before, .hBar:after{
+    content:'';
+    height:2px;
+    width:0;
+    bottom:4px;
+    position:absolute;
+    background:#fff;
+    transition:0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition:0.3s ease all;
+}
+
+.hBar:before{
+    left:50%;
+}
+
+.hBar:after{
+    right:50%;
+}
+
+.form-control:focus ~ .hBar:before, .form-control:focus ~ .hBar:after{
+    width:50%;
+}
+
+label {
+    color:#999999;
+    font-size:20px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition: 0.3s ease all;
+    -moz-transition:0.3s ease all;
+    -webkit-transition:0.3s ease all;
+}
+
+.form-control:focus ~ label, .form-control:valid~label{
+    top:-20px;
+    font-size:14px;
+    color:#fff;
+}
+
+.btn-div {
+    width: 23%;
+    min-width: 145px;
+    margin-bottom: 10px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-submit {
+    background-color: transparent;
+    border: white 3px solid;
+    transition: all 0.3s ease-out;
+    height: 34px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 9px
+}
+
+#btn-submit:focus, #btn-submit:hover, #btn-submit:active {
+    outline: 0;
+    border-width: 0;
+    background-color: white;
+    color: #036;
+}
+#Button-txt {
+    text-align: center;
+}
+
+
+/*mobile viewport properties*/
+
+@media (max-width: 480px)
+{
+    .navbar-top-list{
+        background-color: white;
+        height: auto;
+        border-top: white;
+        margin-top: -8px;
+    }
+    .navbar-top-li{
+        width: 113%;
+    }
+    .navbar-brand{
+        width: auto;
+        padding-left: 2%;
+        padding-top: 3%;
+        display: inline-flex;
+    }
+    #navbar-logo{
+        width: 32%;
+        margin-top: -1%;
+    }
+    .navbar-default{
+        height: 61px;
+    }
+    .navbar-logo-text{
+        padding-left: 4%;
+        margin-right: auto;
+        width: auto;
+    }
+    .navbar-toggle{
+        margin-top: 4%;
+    }
+    #top_nav_div{
+        height: 61px;
+    }
+    .navbar-header{
+        width: 107%;
+        height: 61px;
+    }
+    #myNavbar {
+        min-width: 210px;
+        margin-top: -2.3%;
+    }
+    .backgrnd-img{
+        background-image: url(/data/img/background-m.jpg);
+        background-size: 100% 100%;
+    }
+}
+
+
+
+header {
+    text-align: center;
+}
+
+#form-div {
+    left: 23%;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 10%;
+}
+
+#form_reach_us {
+    margin: 6% 0 3% 0;
+}

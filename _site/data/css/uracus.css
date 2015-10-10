@@ -100,7 +100,7 @@ top-pad {
 }
 
 .backgrnd-img {
-    background-image: url(/data/img/background.jpg);
+    background-image: url(/data/img/background-1.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

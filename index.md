@@ -4,7 +4,7 @@ title: Uracus Home Page
 ---
 <div class="row top-pad back-col home-div-pos backgrnd-img main-page" id="home-page">
     <header>
-        <h3>Welcome to URACUS, a NLP processing software</h3>
+        <h3>Welcome to URACUS, <br> NLP processing software</h3>
     </header>
     <!--Popover for message sending-->
     <div id="overlay">

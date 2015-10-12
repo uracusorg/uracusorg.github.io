@@ -299,6 +299,22 @@ label {
     word-wrap: break-word
 }
 
+/*for tooltipster plugin*/
+
+.tooltipster-punk {
+    border-radius: 5px;
+    border-bottom: 3px solid #f71169;
+    background: #2a2a2a;
+    box-shadow: 2px 0px 9px 2px #ccc;
+    color: #f71169;
+}
+.tooltipster-punk .tooltipster-content {
+    font-family: 'Courier', monospace;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 10px;
+}
+
 /*mobile viewport properties*/
 
 @media (max-width: 480px)

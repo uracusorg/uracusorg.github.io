@@ -1,5 +1,5 @@
 function contactForm() {
-    var contactFormHost = 'https://uracus.herokuapp.com',
+    var contactFormHost = 'https://reachus-uracus.herokuapp.com',
         //contactFormHost = '',
         form = $('#form_reach_us'),
         notice = $('#reachus_message'),

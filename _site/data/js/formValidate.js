@@ -18,19 +18,30 @@ var validator = $("#form_reach_us").validate(
         {
             rules:
             {
-                comment:
+                email: 
+                {
+                    required: true,
+                    email: true
+                },
+                comment: 
                 {
                     required: true,
                     minlength: 20
                 }
             },
-            messages:
+            messages: 
             {
-                comment:
+                email: 
+                {
+                    required: "An email id is required",
+                    email: "Please enter a valid email id"
+                },
+                comment: 
                 {
                     required: "A message is required to be send",
                     minlength: "Message should be more than 20 chars"
                 }
+
             },
             errorPlacement: function(error, element)
             {

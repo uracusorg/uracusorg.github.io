@@ -1,14 +1,18 @@
+/*some defaults*/
 .pad-t-0-lr-0 {
     padding-top: 0;
     padding-left: 0px;
     padding-right: 0px;
 }
-/*some defaults*/
 
 body{
     font-family: "Century Gothic";
     color: white;
     background-color: #003;
+}
+
+p{ 
+    margin: 0;
 }
 
 a{
@@ -18,13 +22,57 @@ a:hover{
     transition: all 0.5s ease;
 }
 
-.pos-centre{
+.pos-center{
     margin-left: auto;
     margin-right: auto;
 }
 
 header {
     text-align: center;
+}
+
+.mar-l-r-0{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-col{
+    color: white;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.scrolle-arrow {
+    display: inline;
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.pagelink {
+    position: relative;
+    top: 0;
+    display: block;
+    visibility: hidden;
+    width: 100%;
+}
+
+/*flex related defaults*/
+.disp-flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /*navbar related properties*/
@@ -73,15 +121,15 @@ header {
     font-family: 'Century Gothic';
     font-size: 1em;
     font-weight: bold;
-    color: #000000!important;
+    color: #fff!important;
 }
 .navbar-li-a:hover {
     color: crimson!important;
 }
 
 #myNavbar {
-    width: 35%;
-    min-width: 452px;
+    width: 22%;
+    min-width: 281px;
     margin-top: 1%;
 }
 
@@ -118,17 +166,16 @@ top-pad {
 
 /*form related properties*/
 
+form {
+    margin: 25px 0 15px 0;
+}
+
 #form-div {
     left: 23%;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     margin-top: 10%;
 }
-
-#form_reach_us {
-    margin: 6% 0 3% 0;
-}
-
 
 .form-group {
         position: relative;
@@ -315,6 +362,66 @@ label {
     padding: 8px 10px;
 }
 
+/*about-us page*/
+.flex-outside {
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+}
+
+.flex-inside {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 4px 0;
+}
+
+.flex-ele {
+    margin: 5px;
+    order: 1;
+    max-width: 170px;
+}
+
+.about-img {
+    position: relative;
+    max-width: 170px;
+    max-height: 200px;
+    width: 100%;
+    min-width: 70px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+#team-img {
+    background-image: url(/data/img/team-img.jpg);
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.abt-img-txt {
+    display: block;
+    text-align: center;
+}
+
+/*contact us*/
+
+.bakgrnd-con {
+    background-color: rgba(0,0,51,1);
+    background: -webkit-linear-gradient(bottom,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to top,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Standard*/
+}
+
+#form-div-cnt {
+    margin-top: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
 /*mobile viewport properties*/
 
 @media (max-width: 480px)
@@ -364,7 +471,7 @@ label {
         background-image: url(/data/img/background-1.jpg);
         background-size: 100% 100%;
     }
-    #form-div{
+    .form-div{
         left: 0;
         margin-left: auto;
         margin-right: auto;
@@ -373,5 +480,8 @@ label {
         margin-top: 20%;
         padding-top: 2%;
         padding-bottom: 1%;
+    }
+    .mobile-width {
+        width: 18%;
     }
 }

@@ -2,7 +2,7 @@ var document,
     $,
     window,
     winheight=$(window).height(),
-    homeDiv = $('#home-page');
+    homeDiv = $('.main-page');
 
 
 function resp_d(){

@@ -8,7 +8,7 @@
 body{
     font-family: "Century Gothic";
     color: white;
-    background-color: #003;
+    background-color: rgba(34,102,136,1);
 }
 
 p{ 
@@ -98,7 +98,7 @@ header {
 }
 
 .Navbar-title-font {
-    color: #333366!important;
+    color: #eb008b!important;
     font-size: 30px;
     font-family: 'Century Gothic';
     font-style: normal;
@@ -149,7 +149,7 @@ top-pad {
 }
 
 .back-col {
-    background-color: #000033;
+    background-color: #268;/*23c 30c 268 003current*/
 }
 
 .home-div-pos {
@@ -416,11 +416,11 @@ label {
 /*contact us*/
 
 .bakgrnd-con {
-    background-color: rgba(0,0,51,1);
-    background: -webkit-linear-gradient(bottom,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(top,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(top,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Fx 3.6-15*/
-    background: linear-gradient(to top,rgba(0,0,51,0.4), rgba(0,0,51,1)); /*Standard*/
+    background-color: rgba(34,102,136,0.1);
+    background: -webkit-linear-gradient(bottom,rgba(34,102,136,0.4), rgba(34,102,136,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgba(34,102,136,0.4), rgba(34,102,136,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgba(34,102,136,0.4), rgba(34,102,136,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to top,rgba(34,102,136,0.4), rgba(34,102,136,1)); /*Standard*/
 }
 
 #form-div-cnt {

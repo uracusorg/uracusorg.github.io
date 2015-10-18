@@ -24,6 +24,7 @@ $(window).resize(function(){
         winheight = $(window).height();
         //$('div').css("border","5px solid red");
         resp_d();
+        resp_m();
     });
 
 

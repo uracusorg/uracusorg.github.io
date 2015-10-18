@@ -35,7 +35,7 @@ function contactForm() {
     return false;
 }
 $('document').ready(function(){
-    $("#btn-submit").click(function(){
+    $("#btn-submit-con").click(function(){
         var formStatus = validator.form();
         if(formStatus == true){
         $("#overlay, #popup").fadeIn();

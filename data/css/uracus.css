@@ -287,7 +287,7 @@ label {
     margin-right: auto;
 }
 
-#btn-submit {
+.btn-submit {
     background-color: transparent;
     border: white 3px solid;
     transition: all 0.3s ease-out;
@@ -299,7 +299,7 @@ label {
     margin-top: 9px
 }
 
-#btn-submit:focus, #btn-submit:hover, #btn-submit:active {
+.btn-submit:focus, .btn-submit:hover, .btn-submit:active {
     outline: 0;
     border-width: 0;
     background-color: white;

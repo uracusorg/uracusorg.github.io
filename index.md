@@ -25,7 +25,7 @@ title: Uracus Home Page
                 <label>Message</label>
             </div>
             <div class="form-group btn-div">
-                <button id="btn-submit" type="submit" class="btn" onclick="return false;">
+            <button id="btn-submit-top" type="submit" class="btn btn-submit" onclick="return false;">
                     <span id="Button-txt" title="Click to Submit">Submit</span>
                 </button>
             </div>
@@ -97,7 +97,7 @@ title: Uracus Home Page
                     <label>Message</label>
                 </div>
                 <div class="form-group btn-div">
-                    <button id="btn-submit" type="submit" class="btn" onclick="return false;"><span id="Button-txt" title="Click to Submit">Submit</span></button>
+                    <button id="btn-submit-con" type="submit" class="btn btn-submit" onclick="return false;"><span id="Button-txt" title="Click to Submit">Submit</span></button>
                 </div>
             </form>
         </div>

@@ -56,6 +56,10 @@ header {
     font-size: 24px;
 }
 
+.home-arrow {
+    left: 48.5%;
+}
+
 .pagelink {
     position: relative;
     top: 0;
@@ -131,6 +135,11 @@ header {
     width: 22%;
     min-width: 281px;
     margin-top: 1%;
+}
+
+.focused{
+    border-top: 3px solid crimson;
+    color: crimson!important;
 }
 
 /*home page settings*/
@@ -497,5 +506,11 @@ label {
     }
     .mobile-width {
         width: 18%;
+    }
+    #form-div-cnt {
+        margin-top: -8px;
+    }
+    .footer {
+        margin-top: 20px;
     }
 }

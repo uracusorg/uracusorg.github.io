@@ -4,7 +4,7 @@ title: Uracus Home Page
 ---
 <!--home page-->
 <a id="home" class="pagelink"></a>
-<div class="row top-pad back-col home-div-pos backgrnd-img main-page" id="home-page">
+<div class="row top-pad back-col home-div-pos backgrnd-img main-page" id="home-page" data-tag="hme">
     <header>
         <h3>Welcome to URACUS, <br> NLP processing software</h3>
     </header>
@@ -31,14 +31,14 @@ title: Uracus Home Page
             </div>
         </form>
     </div>
-    <div class="scrolle-arrow">
+    <div class="scrolle-arrow home-arrow">
         <a href="#about" class="anchorLink"><span class="glyphicon glyphicon-chevron-down font-col"></span></a>
     </div>
 </div>
 
 
 <!--about us-->
-<div class="row back-col main-page mar-l-r-0" id="about-us-page">
+<div class="row back-col main-page mar-l-r-0" id="about-us-page" data-tag="abt">
 <a id="about" class="pagelink"></a>
     <header>
         <h3>About us</h3>

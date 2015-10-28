@@ -48,6 +48,10 @@ header {
     text-align: center;
 }
 
+.disp-inline {
+    display: inline;
+}
+
 .scrolle-arrow {
     display: inline;
     position: absolute;
@@ -77,6 +81,14 @@ header {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column{
+    flex-direction: column;
 }
 
 /*navbar related properties*/
@@ -513,4 +525,69 @@ label {
     .footer {
         margin-top: 20px;
     }
+}
+
+.center-img {
+    display: inline;
+    width: auto;
+    position: absolute;
+    transition: all 5s ease-out;
+    top: 57px;
+    left: 31%;
+    margin-left: 4%;
+    z-index: 10
+}
+
+.left-img {
+    display: inline;
+    width: auto;
+    position: absolute;
+    top: 0;
+    transition: all 5s ease-out;
+    z-index: 1;
+}
+
+.right-img {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 69%;
+    transition: all 5s ease-out;
+    z-index: 1;
+}
+
+.about-inside-cont {
+    display: inline;
+    width: 63%;
+    min-width: 619px;
+    max-width: 650px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 184px;
+}
+
+
+.circ-box {
+    border-radius: 50%;
+}
+
+.center-img-transform {
+    transition: all 5s ease-out;
+    transform: rotate3d(0,1,0,360deg) scale3d(1.2,1.2,1.2);
+}
+
+#personal-desc {
+    display: inline-block;
+    text-align: center;
+    padding: 0 6px 0 6px;
+}
+
+.horizontal-scroll {
+    margin-top: 94px;
+}
+
+.srol-horizontal {
+    cursor: pointer;
+    font-size: 23px;
 }

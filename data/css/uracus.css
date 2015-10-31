@@ -399,7 +399,6 @@ label {
 .flex-ele {
     margin: 5px;
     order: 1;
-    max-width: 170px;
 }
 
 .about-img {
@@ -413,10 +412,11 @@ label {
 }
 
 #team-img {
-    background-image: url(/data/img/team-img.jpg);
+    background-image: url(/data/img/team-img.png);
     height: 230px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -517,13 +517,16 @@ label {
         padding-bottom: 1%;
     }
     .mobile-width {
-        width: 18%;
+        width: 30%;
     }
     #form-div-cnt {
         margin-top: -8px;
     }
     .footer {
         margin-top: 20px;
+    }
+    .abt-img-txt{
+        font-size: 10px;
     }
 }
 

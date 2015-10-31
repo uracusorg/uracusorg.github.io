@@ -6,7 +6,7 @@ title: Uracus Home Page
 <a id="home" class="pagelink"></a>
 <div class="row top-pad back-col home-div-pos backgrnd-img main-page" id="home-page" data-tag="hme">
     <header>
-    <h3>Welcome to URACUS, <br><br><br><br><a href="/happy"> HAPPY BIRTHDAY</a></h3>
+    <h3>Welcome to URACUS</h3>
     </header>
     <!--Popover for message sending-->
     <!--<div id="overlay">
@@ -65,16 +65,16 @@ title: Uracus Home Page
     <section class="flex-outside font-18">
         <div class="flex-inside">
             <div class="flex-ele mobile-width"  onmouseover="imgChangeColor(this)" onmouseout="imgChangeSketch(this)">
-                <img class="img-responsive about-img" src="/data/img/about_us/timanshu.png" data-name="timanshu"/>
-                <span class="abt-img-txt"><b>Timanshu</b><br/>A funny and mad guy who's killer with codes</span>
+                <img class="img-responsive about-img pos-center" src="/data/img/about_us/timanshu.png" data-name="timanshu"/>
+                <span class="abt-img-txt"><b>Timanshu</b><br/>our designer turned coder,<br/> his coding skills are as fast as his imagination..<br/>& belive me he's very good at it"</span>
             </div>
             <div class="flex-ele mobile-width"  onmouseover="imgChangeColor(this)" onmouseout="imgChangeSketch(this)">
-                <img class="img-responsive about-img" src="/data/img/about_us/udbhav.png" data-name="udbhav"/>
-                <span class="abt-img-txt"><b>Udbhav</b><br/>Our Techno-geek, his silence say it all</span>
+                <img class="img-responsive about-img pos-center" src="/data/img/about_us/udbhav.png" data-name="udbhav"/>
+                <span class="abt-img-txt"><b>Udbhav</b><br/>our techno-geek,<br> he is a man of few words..<br> little shy little humorous but true life saver when it comes to technology</span>
                 </div>
             <div class="flex-ele mobile-width"  onmouseover="imgChangeColor(this)" onmouseout="imgChangeSketch(this)">
-                <img class="img-responsive about-img" src="/data/img/about_us/tania.png" data-name="tania"/>
-                <span class="abt-img-txt"><b>Tania</b><br/>Doubt case</span>
+                <img class="img-responsive about-img pos-center" src="/data/img/about_us/tania.png" data-name="tania"/>
+                <span class="abt-img-txt"><b>Tania</b><br/>Our Researcher cum Developer,<br/> whose passion is coding, studying and again coding...<br/> but belive it or not she could turn anything into codzzz...</span>
             </div>
         </div>
     </section>
